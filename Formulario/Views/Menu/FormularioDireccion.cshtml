@@ -1,0 +1,43 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>FormularioDireccion</title>
+    <style>
+        .container {
+            margin: 10px; /* Margen entre los vínculos */
+            padding: 10px 20px; /* Relleno (espacio dentro del vínculo) */
+        }
+    </style>
+</head>
+<body>
+    <div>
+
+        <h1>Formulario Direccion</h1>
+
+        <form action="/Menu/FormularioPOST2" method="post">
+            <label>Direccion</label>
+            <input type="text" name="Direccion" />
+            <br /><br />
+
+            <label>Colonia </label>
+            <input type="text" name="Colonia" />
+            <br /><br />
+
+            <label>Delegacion </label>
+            <input type="text" name="Delegacion" />
+            <br /><br />
+
+            <a href="/Menu/Index" class="container">Regresar</a>
+            <input type="submit" value="Aceptar" class="container" />
+
+        </form>
+    </div>
+</body>
+</html>
