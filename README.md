@@ -1,2 +1,2 @@
 # SolFormulario
-Prática de creacion de un formulario en C#
+Prática y Teoria de creacion de un formulario en C#
